@@ -17,7 +17,7 @@ export default class HomeContainer extends React.Component<Props, State> {
 		this.props.mainStore.fetchItems(data);
 	}
 	render() {
-		const list = this.props.mainStore.items.toJS();
+		const list = this.props.mainStore.items;
 		return <Home navigation={this.props.navigation} list={list} />;
 	}
 }
