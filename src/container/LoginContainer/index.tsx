@@ -37,7 +37,7 @@ export default class LoginContainer extends React.Component<Props, State> {
 				<Item error={form.emailError ? true : false}>
 					<Icon active name="person" />
 					<Input
-						placeholder="Username"
+						placeholder="Email"
 						keyboardType="email-address"
 						ref={c => (this.emailInput = c)}
 						value={form.email}
