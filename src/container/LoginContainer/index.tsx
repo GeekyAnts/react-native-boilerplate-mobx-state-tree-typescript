@@ -23,7 +23,7 @@ export default class LoginContainer extends React.Component<Props, State> {
 			this.props.navigation.navigate("Drawer");
 		} else {
 			Toast.show({
-				text: "Please enter valid credentials",
+				text: "Enter Valid Email & password!",
 				duration: 2000,
 				position: "top",
 				textStyle: { textAlign: "center" },
